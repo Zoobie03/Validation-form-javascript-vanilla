@@ -74,6 +74,24 @@ function validateTerms(input) {
 
 function validateFields(input) {
 
+  let fieldName = input.name;
+
+  // Validaton de l'input PRENOM
+  if (fieldName == "firstName") {
+      if (!validateRequired(input)) {
+          return false;
+      }
+
+      if (!validateLength(input, 2, 20)) {
+          return false;
+      }
+
+      if (!validateText(input)) {
+          return false;
+      }
+
+      return (true);
+  }
   
 }
 
