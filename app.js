@@ -124,6 +124,19 @@ function validateFields(input) {
     return (true);
   }
 
+  // Validaton de l'input NUMERO DE TELEPHONE
+  if (fieldName == "phoneNumber") {
+    if (!validateRequired(input)) {
+        return false;
+    }
+
+    if (!validatePhoneNumber(input)) {
+        return false;
+    }
+
+    return (true);
+  }
+
 }
 
 //=============== END - VALIDATION DES CHAMPS DU FORMULAIRE ===============//
