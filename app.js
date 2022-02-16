@@ -69,3 +69,12 @@ function validatePhoneNumber(input) {
 function validateTerms(input) {
   return input.checked;
 }
+
+//=============== START - VALIDATION DES CHAMPS DU FORMULAIRE ===============//
+
+function validateFields(input) {
+
+  
+}
+
+//=============== END - VALIDATION DES CHAMPS DU FORMULAIRE ===============//
