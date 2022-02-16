@@ -93,6 +93,24 @@ function validateFields(input) {
       return (true);
   }
   
+  // Validaton de l'input NOM
+  if (fieldName == "lastName") {
+    if (!validateRequired(input)) {
+        return false;
+    }
+
+    if (!validateLength(input, 2, 20)) {
+        return false;
+    }
+
+    if (!validateText(input)) {
+        return false;
+    }
+
+    return (true);
+  }
+
+  
 }
 
 //=============== END - VALIDATION DES CHAMPS DU FORMULAIRE ===============//
