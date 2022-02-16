@@ -110,7 +110,20 @@ function validateFields(input) {
     return (true);
   }
 
-  
+  // Validaton de l'input EMAIL
+  if (fieldName == "email") {
+
+    if (!validateRequired(input)) {
+        return false;
+    }
+
+    if (!validateEmail(input)) {
+        return false;
+    }
+
+    return (true);
+  }
+
 }
 
 //=============== END - VALIDATION DES CHAMPS DU FORMULAIRE ===============//
