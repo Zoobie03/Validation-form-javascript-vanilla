@@ -35,3 +35,8 @@ function validateRequired(input) {
 function validateLength(input, minLength, maxLength) {
   return !(input.value.length < minLength || input.value.length > maxLength);
 }
+
+// Validation des caractères: LATIN & LETTRES
+function validateText(input) {
+  return input.value.match("^[A-Za-z]+$");
+}
