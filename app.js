@@ -49,3 +49,8 @@ function validateEmail(input) {
 
   return !(position_at < 1 || (position_dot - position_at < 2));
 }
+
+// Validation code postal
+function validatePostCode(input) {
+  return input.value.match("^(0[1-9]|[1-9][0-9])[0-9][0-9][0-9]$");
+}
