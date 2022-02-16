@@ -174,6 +174,15 @@ function validateFields(input) {
     return (true);
   }
 
+  // Validaton de la checkbox CONDTIONS
+  if (fieldName == "conditions") {
+    if (!validateTerms(input)) {
+        return false;
+    }
+
+    return (true);
+  }
+
 }
 
 //=============== END - VALIDATION DES CHAMPS DU FORMULAIRE ===============//
