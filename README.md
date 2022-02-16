@@ -12,4 +12,4 @@ With the green button 'Code' => Download ZIP and unzip it.
 
 - Open the unzipped files with [Visual Studio Code](https://code.visualstudio.com/).
 - Download the Live Server extension
-- ![live-server](https://user-images.githubusercontent.com/74169935/154176690-84e97407-34fa-441e-9174-d6b1509a39b8.png)
+![live-server](https://user-images.githubusercontent.com/74169935/154176690-84e97407-34fa-441e-9174-d6b1509a39b8.png)
