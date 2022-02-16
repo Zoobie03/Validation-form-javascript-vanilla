@@ -1,1 +1,1 @@
-# Validation-form-javascript-vanilla
+# Validation form with Boostrap & vanilla Javascript
