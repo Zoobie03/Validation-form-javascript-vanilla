@@ -40,3 +40,12 @@ function validateLength(input, minLength, maxLength) {
 function validateText(input) {
   return input.value.match("^[A-Za-z]+$");
 }
+
+// Validation d'un email
+function validateEmail(input) {
+  let email = input.value;
+  let position_at = email.indexOf('@');
+  let position_dot = email.lastIndexOf(".");
+
+  return !(position_at < 1 || (position_dot - position_at < 2));
+}
