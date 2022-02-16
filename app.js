@@ -151,6 +151,15 @@ function validateFields(input) {
     return (true);
   }
 
+  // Validaton de l'input VILLE
+  if (fieldName == "city") {
+    if (!validateRequired(input)) {
+        return false;
+    }
+
+    return (true);
+  }
+
 }
 
 //=============== END - VALIDATION DES CHAMPS DU FORMULAIRE ===============//
