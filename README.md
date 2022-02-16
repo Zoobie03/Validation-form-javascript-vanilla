@@ -3,7 +3,9 @@
 
 ## For run this code:
 - Download this code.
+
 > with the green button 'Code' => Download ZIP and unzip it.
--- Or run `git clone git@github.com:Zoobie03/Validation-form-javascript-vanilla.git`.
+> or run `git clone git@github.com:Zoobie03/Validation-form-javascript-vanilla.git`.
+
 - Open the unzipped files with [Visual Studio Code](https://code.visualstudio.com/).
 - Download the Live Server extension
