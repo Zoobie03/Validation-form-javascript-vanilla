@@ -137,6 +137,20 @@ function validateFields(input) {
     return (true);
   }
 
+   // Validaton de l'input ADRESSE
+   if (fieldName == "address") {
+
+    if (!validateRequired(input)) {
+        return false;
+    }
+
+    if (!validateAddress(input)) {
+        return false;
+    }
+
+    return (true);
+  }
+
 }
 
 //=============== END - VALIDATION DES CHAMPS DU FORMULAIRE ===============//
