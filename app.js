@@ -160,6 +160,20 @@ function validateFields(input) {
     return (true);
   }
 
+  // Validaton de l'input CODE POSTAL
+  if (fieldName == "postCode") {
+
+    if (!validateRequired(input)) {
+        return false;
+    }
+
+    if (!validatePostCode(input)) {
+        return false;
+    }
+
+    return (true);
+  }
+
 }
 
 //=============== END - VALIDATION DES CHAMPS DU FORMULAIRE ===============//
