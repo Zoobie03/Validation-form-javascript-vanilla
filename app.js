@@ -54,3 +54,8 @@ function validateEmail(input) {
 function validatePostCode(input) {
   return input.value.match("^(0[1-9]|[1-9][0-9])[0-9][0-9][0-9]$");
 }
+
+// Validation de l'adresse: FRANCAISE
+function validateAddress(input) {
+  return input.value.match(/^\s*\S+(?:\s+\S+){2}/);
+}
